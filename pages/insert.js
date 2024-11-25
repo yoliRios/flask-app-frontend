@@ -24,7 +24,7 @@ export default function InsertData() {
       }
   
       try {
-        const response = await fetch('http://localhost:5000/insert', {
+        const response = await fetch('http://34.31.123.236:5000/insert', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ name, email }),

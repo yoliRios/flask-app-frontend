@@ -11,9 +11,6 @@ kind: ConfigMap
 metadata:
   name: flask-frontend-configmap
   namespace: flask-frontend-ns
-data:
-  REACT_APP_BACKEND_URL: " https://flask-backend-service.flask-backend-ns.svc.cluster.local"
-
 ---
 
 apiVersion: apps/v1
