@@ -16,7 +16,7 @@ steps:
       - 'CLOUDSDK_COMPUTE_ZONE=${_ZONE}'
       - 'CLOUDSDK_CONTAINER_CLUSTER=${_CLUSTER_NAME}'
 images:
-  - 'gcr.io/myfirstapp-72240/ica4-frontend:$SHORT_SHA'
+  - 'gcr.io/proven-sum-435500-p1/flask-frontend:$SHORT_SHA'
 substitutions:
   _ZONE: 'us-central1-a'
   _CLUSTER_NAME: 'my-flask-cluster'
