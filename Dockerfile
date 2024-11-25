@@ -11,5 +11,7 @@ COPY . .
 RUN npm install
 RUN npm run build
 
+EXPOSE 3000
+
 #  Expose the port the app runs in
 ENTRYPOINT [ "npm", "run", "start" ]
